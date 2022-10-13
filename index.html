@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+       
+      .navbar {
+         display: flex;
+        position: fixed;
+        box-shadow: 0 15px 40px -20px rgb(49, 45, 70);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 210px;
+        background: whitesmoke;
+        padding: 0 20px;
+      }
+      ul{
+        font-size: 30px;
+      }
+      .logo {
+        box-shadow: 10px 10px rgb(71, 70, 70);
+        padding-left: 0px;
+        padding-right: 5px;
+        padding-top: 0px;
+        background-color: black;
+      }
+      .content-section{
+        
+        background-color: lightcyan;
+
+      }       
+      .navitem {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        padding-left: 230px;
+        margin: 5px;
+        font-weight: 500;
+        font-size: 50px;
+        color: rgb(100, 97, 103);
+        
+      }
+      .search{
+        font-size: 20px;
+      }
+    
+     
+      .item{
+        display: inline;
+        
+      }
+      .item a{
+        color: rgb(50, 47, 47);
+        padding-left: 30px;
+         padding-right:30px;
+         text-decoration: none;
+        
+      }
+      .item a:hover{
+        color: #4267B2;
+      }
+      .main1{
+        padding-top: 200px;
+        color: black;
+        border-bottom: 1px solid #282c3f; 
+      }
+      .heading1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(59, 49, 86);
+      }
+     
+    .image1{
+      margin-top: 100px;
+      padding-top: 20px;
+    }
+    a button{
+      color: #fff;
+      font-size: 40px;
+      background-color: #4267B2;
+      border: 2px;
+      border-radius: 5px;
+      margin-top: 20px;
+      
+    }
+    a button:hover{
+      cursor: pointer;
+      box-shadow:7px 7px #898F9C;
+    }
+    .submain2{
+      
+      padding: 10px;
+
+    }
+    .form-box{
+      box-shadow: 20px 20px 10px grey;
+      background-color: white;
+      margin-top: 10px;
+      margin-left: 400px;
+      margin-right: 400px ;
+      border: 2px solid grey;
+
+    }
+     .form-box .input{
+      align-content: center;
+      
+      color: #282c3f;
+      font-size: 30px;
+      padding-bottom: 20px ;
+      padding-left: 150px;
+    }
+  #but{
+      font-size: 20px;
+      border: 2px;
+      border-radius: 3px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      background-color: rgb(17, 156, 17);
+      cursor: pointer;
+    }
+    
+    .btn2 a button{
+      color: rgb(6, 6, 6);
+      font-size: 40px;
+      background-color: #F77737;
+      border: 2px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .btn2 a button:hover{
+      box-shadow: 7px 7px #C13584;
+    }
+   
+    
+.footer-content{
+
+  
+  background-color: grey;
+  display: flex;
+  
+}
+.footer-content .fitem a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+
+.fitem{
+  margin-left: 50px;
+}
+#chat{
+ font-size: 50px;
+  position:fixed;
+  right: 5px;
+  bottom: 5px;
+}
+#chat:hover{
+  color: royalblue;
+  font-size: 55px;
+}
+.rr{
+  align-items: center;
+}
+       
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+
+              <div id="chat">
+                <i class="fa-brands fa-rocketchat"></i>
+              </div>
+
+
+
+
+
+      <header class="navbar">
+        <div class="left">
+          <img class="logo" src="mylogo1.png" />
+        </div>
+        <div class="right">
+          <div class="navitem">
+            <div>Assignment</div>
+            <div class="item2">This is my assignment page</div>
+          </div>
+
+          <div class="sub-navbar">
+            <ul>
+              
+                <div class="item"><a href="#" target="_blank"><i class="fa-solid fa-house" ></i> <span>Home</span> </a> </div>
+                <div class="item"><a href="#" target="_blank"><span>login</span></a></div>
+                <div class="item"><a href="#" target="_blank"><span>Learn</span></a></div>
+               <div class="item"> <i class="fa-solid fa-magnifying-glass"></i>
+                <span><input class="search" type="text" placeholder="Input..."/></span></div>
+              
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main class="content-section">
+        
+        
+        <div class="main1">
+          <h3 class="heading1">Today's Thought</h3>
+          <p class="para1">"Challenges in life prepare us for greater things. We have an opportunity to learn from those moments.
+            The best thing to do is to try to solve problems without getting frustrated, because when we get frustrated our minds are disturbed. 
+            When the radar is disturbed, there will not be guidance from within, and we will not be able to make the right decisions.
+            So when challenges are there, we have to become extra alert. Instead of fighting them, invite them." </p>
+          </div>
+          
+          <div class="submain">
+           <form>
+            <h1>Create an account</h1>
+             <div class="form-box">
+               <div class="input">
+              <label class="rr"> Name:</label> <br>
+               <input class="scanf"  type="text" name="email" placeholder="Rahul...."><br>
+               <label class="rr" >Email:</label><br>
+               <input class="scanf" type="email" placeholder="abc123@gmail.com"><br>
+               <label  class="rr">Password:</label><br>
+               <input class="scanf" type="password"><br>
+                         <input id="but"  type="button" value="Create Now">
+                        </div>
+             </div>
+             
+           </form>
+           
+           <div class="image1"> <!--submain1-->
+             <img src="fb.jpg">
+           
+           <div class="btn1"> <a href="https://www.facebook.com/"><button>facebook</button></a>
+           </div>
+           <h3>What Is Facebook?</h3>
+            <p id="fbpara">Facebook is a social networking site that makes it easy for you to connect and share with family and friends online.
+               Originally designed for college students, Facebook was created in 2004 by Mark Zuckerberg while he was enrolled at Harvard University. 
+               By 2006, anyone over the age of 13 with a valid email address could join Facebook. 
+              Today, Facebook is the world's largest social network, with more than 1 billion users worldwide.</p>
+         
+
+                   <div class="submain2">
+                    <img src="insta.jpg">
+                    
+                    <div class="btn2"><a href="https://www.instagram.com/" ><button>Instagram</button></a>
+                    </div>
+                       <h3>What is Instagram?</h3>
+                       <p>Instagram is a free photo and video sharing app available on iPhone and Android. 
+                        People can upload photos or videos to our service and share them with their followers or with a select group of friends.
+                         They can also view, comment and like posts shared by their friends on Instagram.
+                         Anyone 13 and older can create an account by registering an email address and selecting a username.</p>
+                        
+                       </div>
+
+
+      </main>
+     <div class="foot">  
+<footer >
+  <div class="footer-content">
+     <div class="fitem">
+      <ul>
+       <li class="footer-li"><a href="#">About us</a></li>
+       <li class="footer-li"><a href="#">Team</a></li>
+       <li class="footer-li"><a href="#">Careers</a></li>
+       <li class="footer-li"><a href="#">Blog</a></li>
+      </div>
+     </ul>
+     <div class="fitem">
+     <ul>
+      <li class="footer-li"><a href="#">Partner</a></li>
+      <li class="footer-li"><a href="#">Jobs</a></li>
+      <li class="footer-li"><a href="#">Terms</a></li>
+      <li class="footer-li"><a href="#">Privacy </a></li> 
+     </ul>
+    </div>
+</footer>
+</div>  
+
+      </div>
+    </div>
+  </body>
+</html>
